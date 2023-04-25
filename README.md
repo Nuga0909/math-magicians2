@@ -95,8 +95,13 @@ Give a ⭐️ if you like this project! It's help a lot
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Acknowledgments
+
+- Hat tip to Microverse for giving me this project to work on
+- Hat tip to the person his/her code was used
+
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
