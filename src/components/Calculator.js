@@ -14,16 +14,12 @@ const Calculator = () => {
     setCalculation(newState);
   };
 
-  const { next, operation, total } = calculation;
+  // const { next, operation, total } = calculation;
 
   return (
     <div className="container flex">
       <div className="Output-bar flex button-container">
-        { total }
-        {' '}
-        { operation }
-        {' '}
-        { next }
+        {calculation.next || calculation.operation || calculation.total || '0'}
       </div>
       <div className="buttons">
         <div className="col-1 button-container flex">
