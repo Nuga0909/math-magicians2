@@ -26,7 +26,7 @@ const Quote = () => {
   }, []);
 
   if (isLoading) {
-    return <p>Loading...</p>;
+    return <p className="loading">Loading...</p>;
   }
   if (hasErr) return <div>Something went wrong!</div>;
   return (
