@@ -1,6 +1,6 @@
 import Calculator from './components/Calculator';
 import './Calculator.css';
-import Quote from './components/quote.js';
+import Quote from './components/quote';
 
 const App = () => (
   <div className="App">
