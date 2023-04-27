@@ -9,10 +9,10 @@ const Quote = () => {
   useEffect(() => {
     const fetchQuote = async () => {
       try {
-        const response = await fetch(NINJA_URL, {
+        const response = await fetch('https://api.api-ninjas.com/v1/quotes', {
           method: 'GET',
           headers: {
-            'x-api-key': NINJA_API,
+            'x-api-key': 'T/TGjzAIvTi2pRubA26+Vw==altqSPkVlndInZEJ',
           },
         });
         const data = await response.json();
