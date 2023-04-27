@@ -3,7 +3,7 @@ import './quote.css';
 
 const Quote = () => {
   const [quote, setQuote] = useState('');
-  const [hasError, setHasError] = useState(false);
+  const [hasErr, setHasErr] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -19,7 +19,7 @@ const Quote = () => {
         setQuote(data[0]);
         setIsLoading(false);
       } catch (error) {
-        setHasError(true);
+        setHasErr(true);
       }
     };
     fetchQuote();
@@ -28,7 +28,7 @@ const Quote = () => {
   if (isLoading) {
     return <p>Loading...</p>;
   }
-  if (hasError) return <div>Something went wrong!</div>;
+  if (hasErr) return <div>Something went wrong!</div>;
   return (
     <div className="quote">
       <blockquote>{`"${quote.quote}"`}</blockquote>
