@@ -1,10 +1,12 @@
-import Calculator from './components/Calculator';
 import './Calculator.css';
+import Calculator from './components/Calculator';
+import Quote from './components/Quote';
 
-function App() {
-  return (
+const App = () => (
+  <div>
     <Calculator />
-  );
-}
+    <Quote />
+  </div>
+);
 
 export default App;
