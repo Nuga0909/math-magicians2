@@ -3,7 +3,7 @@ import './Calculator.css';
 import Quote from './components/quote';
 
 const App = () => (
-  <div className="App">
+  <div>
     <Calculator />
     <Quote />
   </div>
