@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import './quote.css';
+import './Quote.css';
 
-export default function Quote() {
+function Quote() {
   const [quote, setQuote] = useState('');
   const [hasErr, setHasErr] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
@@ -38,3 +38,5 @@ export default function Quote() {
     </div>
   );
 }
+
+export default Quote;
