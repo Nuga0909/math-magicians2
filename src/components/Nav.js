@@ -16,7 +16,7 @@ const Navbar = () => {
     {
       id: 3,
       name: 'Quote',
-      path: '/Quote',
+      path: '/quote',
     },
   ];
 

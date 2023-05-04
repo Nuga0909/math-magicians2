@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import './Quote.css';
+import '../Calculator.css';
 
-function Quote() {
+const Quotes = () => {
   const [quote, setQuote] = useState('');
   const [hasErr, setHasErr] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
@@ -37,6 +37,6 @@ function Quote() {
       <p className="author">{quote.author}</p>
     </div>
   );
-}
+};
 
-export default Quote;
+export default Quotes;
