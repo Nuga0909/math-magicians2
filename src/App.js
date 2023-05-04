@@ -3,7 +3,7 @@ import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Calculator from './components/Calculator';
 import Navbar from './components/Nav';
 import HomePage from './components/Home';
-import Quote from './components/Quote';
+import Quote from './components/quote';
 
 function App() {
   return (
