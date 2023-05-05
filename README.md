@@ -7,6 +7,7 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+  - [🚀 Live Demo](#live-demo)
   - [💻 Getting Started ](#-getting-started-)
     - [Setup](#setup)
     - [Install](#install)
@@ -37,6 +38,18 @@ This is a simple application made with react that is intended to be used for mat
 - **Use JSX**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> This link will guide you to my project
+
+- [Live Demo Link](https://my-math-magicians-2-1.onrender.com)
+<!-- - [Loom Video](https://www.loom.com/share/c97562d2fb964f129f4151ee5d42b9a7) -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
